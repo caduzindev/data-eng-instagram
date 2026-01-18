@@ -6,6 +6,7 @@ class DimInstagramAccount:
     """Dimensão de contas do Instagram"""
     account_sk: str
     name: str
+    nickname: str
     url: str
 
 
@@ -23,6 +24,7 @@ class FactInstagramAccountSnapshot:
 @dataclass
 class DimInstagramPost:
     """Dimensão de posts do Instagram"""
+    post_sk: str
     account_sk: str
     external_code: str
     caption: str
@@ -52,6 +54,7 @@ class FactInstagramPostMetrics:
 @dataclass
 class DimInstagramComment:
     """Dimensão de comentários do Instagram"""
+    comment_sk: str
     post_sk: str
     account_sk: str
     owner_username: str
@@ -73,10 +76,10 @@ class FactInstagramCommentMetrics:
 @dataclass
 class DimDate:
     """Dimensão de data"""
+    date_sk: str
     date: str
     day: str
     month: str
     year: str
     weekday: str
     is_weekend: str
-

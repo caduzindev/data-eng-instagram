@@ -1,23 +1,23 @@
 [
   {
-    "name": "comment_sk",
+    "name": "account_sk",
     "type": "STRING",
     "mode": "REQUIRED",
     "defaultValueExpression": "GENERATE_UUID()"
   },
   {
-    "name": "post_sk",
+    "name": "name",
     "type": "STRING",
     "mode": "REQUIRED"
   },
   {
-    "name": "account_sk",
+    "name": "nickname",
     "type": "STRING",
     "mode": "REQUIRED"
   },
   {
-    "name": "owner_username",
+    "name": "url",
     "type": "STRING",
-    "mode": "NULLABLE"
+    "mode": "REQUIRED"
   }
 ]

@@ -1,8 +1,32 @@
 [
-  {"name": "account_sk", "type": "STRING", "mode": "REQUIRED"},
-  {"name": "followers_count", "type": "INTEGER", "mode": "NULLABLE"},
-  {"name": "follows_count", "type": "INTEGER", "mode": "NULLABLE"},
-  {"name": "isBusiness", "type": "BOOLEAN", "mode": "NULLABLE"},
-  {"name": "category", "type": "STRING", "mode": "NULLABLE"},
-  {"name": "biography", "type": "STRING", "mode": "NULLABLE"}
+  {
+    "name": "account_sk",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "followers_count",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "follows_count",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "isBusiness",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "category",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "biography",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
 ]
