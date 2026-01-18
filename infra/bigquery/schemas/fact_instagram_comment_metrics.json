@@ -1,0 +1,10 @@
+[
+  {"name": "account_sk", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "post_sk", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "comment_sk", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "text", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "owner_pic_url", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "repliesCount", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "linkesCount", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "date_sk", "type": "STRING", "mode": "REQUIRED"}
+]

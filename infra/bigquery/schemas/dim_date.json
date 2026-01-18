@@ -1,0 +1,8 @@
+[
+  {"name": "date", "type": "DATE", "mode": "REQUIRED"},
+  {"name": "day", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "month", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "year", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "weekday", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "is_weekend", "type": "BOOLEAN", "mode": "NULLABLE"}
+]

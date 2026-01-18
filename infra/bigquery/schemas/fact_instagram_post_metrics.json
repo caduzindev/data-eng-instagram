@@ -1,0 +1,9 @@
+[
+  {"name": "account_sk", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "post_sk", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "comments_count", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "likes_count", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "video_view_count", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "video_play_count", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "date_sk", "type": "STRING", "mode": "REQUIRED"}
+]

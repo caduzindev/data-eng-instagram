@@ -1,0 +1,14 @@
+[
+  {"name": "account_sk", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "external_code", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "caption", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "hash_tags", "type": "STRING", "mode": "REPEATED"},
+  {"name": "audio_url", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "music_name", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "owner_music_name", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "video_url", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "video_duration", "type": "FLOAT", "mode": "NULLABLE"},
+  {"name": "dim_height", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "dim_width", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "location", "type": "STRING", "mode": "NULLABLE"}
+]

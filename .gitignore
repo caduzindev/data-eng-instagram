@@ -1,0 +1,6 @@
+**/venv/
+**/__pycache__/
+**/*.pyc
+.vscode/
+**/.env
+etl/account_service_instagram.json
