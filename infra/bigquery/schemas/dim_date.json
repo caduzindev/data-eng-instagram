@@ -2,7 +2,8 @@
   {
     "name": "date_sk",
     "type": "STRING",
-    "mode": "REQUIRED"
+    "mode": "REQUIRED",
+    "defaultValueExpression": "GENERATE_UUID()"
   },
   {
     "name": "date",

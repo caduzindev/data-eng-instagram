@@ -4,3 +4,10 @@
 .vscode/
 **/.env
 etl/account_service_instagram.json
+
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/.terraform.lock.hcl
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/.terraform.lock.hcl

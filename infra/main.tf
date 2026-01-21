@@ -24,5 +24,5 @@ resource "google_bigquery_table" "instagram_tables" {
   for_each   = toset(local.tabelas)
   dataset_id = google_bigquery_dataset.instagram_ds.dataset_id
   table_id   = each.value
-  schema     = file("${path.module}/schemas/${each.value}.json")
+  schema     = file("${path.module}/bigquery/schemas/${each.value}.json")
 }

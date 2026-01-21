@@ -3,8 +3,8 @@ import json
 
 from ..store.apify.instagram import instagram_apify
 from ..store.apify.instagram_types import Post, Account
-from ..store.gcs.storage import storage_gcs
-from ..store.gcs.types import UploadFile, ValidExtension
+from core.infra.gcs.storage import storage_gcs
+from core.infra.gcs.types import UploadFile, ValidExtension
 
 from core.env import CoreEnv
 from core.messaging.kafka.producer import send_message_topic
@@ -16,7 +16,7 @@ from core.entities.pre_file_instagram import (
     VideoInfo,
     CommentDetail
 )
-from ..store.utils import safe_get
+from core.utils.serialize import safe_get
 from core.utils.serialize import serialize_dataclass
 
 class InstagramService:

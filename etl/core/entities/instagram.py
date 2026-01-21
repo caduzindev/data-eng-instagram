@@ -26,6 +26,7 @@ class DimInstagramPost:
     """Dimensão de posts do Instagram"""
     post_sk: str
     account_sk: str
+    date_sk: str
     external_code: str
     caption: str
     hash_tags: List[str]
@@ -58,6 +59,7 @@ class DimInstagramComment:
     post_sk: str
     account_sk: str
     owner_username: str
+    date_sk: str
 
 
 @dataclass

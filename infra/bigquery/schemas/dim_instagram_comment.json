@@ -19,5 +19,10 @@
     "name": "owner_username",
     "type": "STRING",
     "mode": "NULLABLE"
+  },
+  {
+    "name": "date_sk",
+    "type": "STRING",
+    "mode": "REQUIRED"
   }
 ]

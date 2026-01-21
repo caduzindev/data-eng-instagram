@@ -1,6 +1,6 @@
 from google.cloud import storage
 from .types import UploadFile, UploadFileReturn
-from ..utils import generate_unique_filename
+from core.utils.file import generate_unique_filename
 
 from core.env import CoreEnv
 
@@ -22,5 +22,10 @@ class StorageGCS:
     return {
       'saved_path': f'{payload.bucket_name}/{file_name}'
     }
+
+  def download_file(self, bucket_name: str, file_name: str) -> bytes:
+    bucket = self.client.bucket(bucket_name)
+    blob = bucket.blob(file_name)
+    return blob.download_as_bytes()
 
 storage_gcs = StorageGCS()
