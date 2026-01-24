@@ -5,7 +5,6 @@ import json
 
 from ...env import CoreEnv
 
-
 async def retrive_data_topic_loop(topics: list[str], callback):
   loop = asyncio.get_event_loop()
   

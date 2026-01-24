@@ -28,11 +28,16 @@ class DimInstagramPost:
     account_sk: str
     date_sk: str
     external_code: str
-    caption: str
-    hash_tags: List[str]
+    caption: Optional[str]
+    hash_tags: Optional[List[str]]
     audio_url: Optional[str]
     music_name: Optional[str]
     owner_music_name: Optional[str]
+    video_url: Optional[str]
+    video_duration: Optional[float]
+    dim_height: Optional[int]
+    dim_width: Optional[int]
+    location: Optional[str]
 
 
 @dataclass
