@@ -35,3 +35,14 @@ services:
     environment:
       KAFKA_CLUSTERS_0_NAME: local
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:9092
+
+  llm_ollama:
+    image: ollama/ollama:latest
+    container_name: llm_ollama
+    ports:
+      - "11434:11434"
+    environment:
+      OLLAMA_HOST: 0.0.0.0
+      OLLAMA_PORT: 11434
+    volumes:
+      - ./ollama:/root/.ollama
