@@ -10,4 +10,4 @@ infra/terraform.tfstate.backup
 infra/.terraform.lock.hcl
 infra/.terraform/
 infra/.terraform.lock.hcl
-infra/.terraform.lock.hcl
+infra/ollama
