@@ -69,5 +69,20 @@
     "name": "location",
     "type": "STRING",
     "mode": "NULLABLE"
+  },
+  {
+    "name": "enrichment_content_topic",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "enrichment_tone",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "enrichment_call_to_action_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
   }
 ]

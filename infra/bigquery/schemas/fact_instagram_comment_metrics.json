@@ -38,5 +38,25 @@
     "name": "date_sk",
     "type": "STRING",
     "mode": "REQUIRED"
+  },
+  {
+    "name": "enrichment_sentiment_label",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "enrichment_sentiment_score",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "enrichment_intent",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "enrichment_keywords",
+    "type": "STRING",
+    "mode": "REPEATED"
   }
 ]
